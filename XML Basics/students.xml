@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xslt"?>
+<students xmlsn="urn:students">
+  <student>
+    <name>Goshko</name>
+    <sex>Male</sex>
+    <birthdate>1995-04-18</birthdate>
+    <phone>0888888888</phone>
+    <mail>goshko@gmail.com</mail>
+    <course>Telerik academy</course>
+    <specialty>.NET Ninja</specialty>
+    <facultynumber>77777</facultynumber>
+    <exams>
+      <exam>
+        <name>JS Apps</name>
+        <tutor>Doncho</tutor>
+        <score>80</score>
+      </exam>
+      <exam>
+        <name>JS OOP</name>
+        <tutor>Doncho</tutor>
+        <score>90</score>
+      </exam>
+    </exams>
+  </student>
+  <student>
+    <name>Elizabet</name>
+    <sex>Female</sex>
+    <birthdate>1989-10-27</birthdate>
+    <phone>0888888887</phone>
+    <mail>eli_bet@gmail.com</mail>
+    <course>Telerik Academy</course>
+    <specialty>.NET Ninja</specialty>
+    <facultynumber>77776</facultynumber>
+    <exams>
+      <exam>
+        <name>JS Apps</name>
+        <tutor>Doncho</tutor>
+        <score>40</score>
+      </exam>
+      <exam>
+        <name>JS OOP</name>
+        <tutor>Doncho</tutor>
+        <score>67</score>
+      </exam>
+      <exam>
+        <name>C# OOP</name>
+        <tutor>Niki</tutor>
+        <score>98</score>
+      </exam>
+    </exams>
+  </student>
+</students>

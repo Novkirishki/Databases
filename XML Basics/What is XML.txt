@@ -1,0 +1,3 @@
+XML stands for Extensible Markup Language. Its main purpose is to store and transport data. It is hardware independent, because it is text based. XML is also human readable. 
+
+Namespaces in XML are a method to avoid element name conflicts. For example: if we want to match 2 xml documents that both have elements with the same name there is going to be a conflict. By using different namespaces for the documents we can use the namespaces as prefixes for elements and by doing so we are avoiding conflicts. If namespaces are the same there is going to be a conflict regardless we are using namespaces. Because of that it is important our namespaces to be unique.
