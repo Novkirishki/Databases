@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="13.catalog.xslt"?>
+<catalogue>
+  <album name="The eminem show">
+    <artist>Eminem</artist>
+    <year>2002</year>
+    <producer>Dr.Dre</producer>
+    <price>30</price>
+    <songs>
+      <song>
+        <title>Soldier</title>
+        <duration>226</duration>
+      </song>
+      <song>
+        <title>Superman</title>
+        <duration>350</duration>
+      </song>
+      <song>
+        <title>Till I collapse</title>
+        <duration>297</duration>
+      </song>
+    </songs>
+  </album>
+  <album name="Recovery">
+    <artist>Eminem</artist>
+    <year>2010</year>
+    <producer>Alex the Kid</producer>
+    <price>17</price>
+    <songs>
+      <song>
+        <title>Love the way you lie</title>
+        <duration>264</duration>
+      </song>
+      <song>
+        <title>Not Afraid</title>
+        <duration>250</duration>
+      </song>
+    </songs>
+  </album>
+  <album name="Shakira">
+    <artist>Shakira</artist>
+    <year>2014</year>
+    <producer>Roy Battle</producer>
+    <price>14</price>
+    <songs>
+      <song>
+        <title>Can't remember to forget you</title>
+        <duration>206</duration>
+      </song>
+      <song>
+        <title>Empire</title>
+        <duration>243</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>

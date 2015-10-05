@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<directories>
+	<dir name="09.Dir to XML with XmlWriter">
+		<file name="09.Dir to XML with XmlWriter.csproj" extension=".csproj" />
+		<file name="App.config" extension=".config" />
+		<file name="Program.cs" extension=".cs" />
+		<dir name="bin">
+			<dir name="Debug">
+				<file name="09.Dir to XML with XmlWriter.exe" extension=".exe" />
+				<file name="09.Dir to XML with XmlWriter.exe.config" extension=".config" />
+				<file name="09.Dir to XML with XmlWriter.pdb" extension=".pdb" />
+				<file name="09.Dir to XML with XmlWriter.vshost.exe" extension=".exe" />
+				<file name="09.Dir to XML with XmlWriter.vshost.exe.config" extension=".config" />
+				<file name="09.Dir to XML with XmlWriter.vshost.exe.manifest" extension=".manifest" />
+			</dir>
+			<dir name="Release" />
+		</dir>
+		<dir name="obj">
+			<dir name="Debug">
+				<file name="09.Dir to XML with XmlWriter.csproj.FileListAbsolute.txt" extension=".txt" />
+				<file name="09.Dir to XML with XmlWriter.csprojResolveAssemblyReference.cache" extension=".cache" />
+				<file name="09.Dir to XML with XmlWriter.exe" extension=".exe" />
+				<file name="09.Dir to XML with XmlWriter.pdb" extension=".pdb" />
+				<file name="DesignTimeResolveAssemblyReferencesInput.cache" extension=".cache" />
+				<file name="TemporaryGeneratedFile_036C0B5B-1481-4323-8D20-8F5ADCB23D92.cs" extension=".cs" />
+				<file name="TemporaryGeneratedFile_5937a670-0e60-4077-877b-f7221da3dda1.cs" extension=".cs" />
+				<file name="TemporaryGeneratedFile_E7A71F73-0F8D-4B9B-B56E-8E70B10BC5D3.cs" extension=".cs" />
+				<dir name="TempPE" />
+			</dir>
+		</dir>
+		<dir name="Properties">
+			<file name="AssemblyInfo.cs" extension=".cs" />
+		</dir>
+	</dir>
+</directories>

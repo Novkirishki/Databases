@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<catalogue>
+  <album>
+    <name>Recovery</name>
+    <artist>Eminem</artist>
+    <year>2010</year>
+    <producer>Alex the Kid</producer>
+    <price>17</price>
+    <songs>
+      <song>
+        <title>Love the way you lie</title>
+        <duration>264</duration>
+      </song>
+      <song>
+        <title>Not Afraid</title>
+        <duration>250</duration>
+      </song>
+    </songs>
+  </album>
+  <album>
+    <name>Shakira</name>
+    <artist>Shakira</artist>
+    <year>2014</year>
+    <producer>Roy Battle</producer>
+    <price>14</price>
+    <songs>
+      <song>
+        <title>Can't remember to forget you</title>
+        <duration>206</duration>
+      </song>
+      <song>
+        <title>Empire</title>
+        <duration>243</duration>
+      </song>
+    </songs>
+  </album>
+</catalogue>
