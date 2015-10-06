@@ -97,4 +97,4 @@ NoSQL encompasses a wide variety of different database technologies that were de
 * **Key-value**: CouchDB, Oracle NoSQL Database, Dynamo, FoundationDB, HyperDex, MemcacheDB, Redis, Riak, FairCom c-treeACE, Aerospike, OrientDB, MUMPS
 * **Graph**: Allegro, Neo4J, InfiniteGraph, OrientDB, Virtuoso, Stardog
 
-![NoSQL DBs pros and cons](databases.png)
+![NoSQL DBs pros and cons](databases.PNG)
