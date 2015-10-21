@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1-5,7-8.CreateDbContext", "1.CreateDbContext\1-5,7-8.CreateDbContext.csproj", "{FB63E84A-E609-450A-A6E6-589CB83F816A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "6.CopyNorthwind", "6.CopyNorthwind\6.CopyNorthwind.csproj", "{98285FEB-A912-45D3-B4B0-0261B811CE09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB63E84A-E609-450A-A6E6-589CB83F816A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB63E84A-E609-450A-A6E6-589CB83F816A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB63E84A-E609-450A-A6E6-589CB83F816A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB63E84A-E609-450A-A6E6-589CB83F816A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98285FEB-A912-45D3-B4B0-0261B811CE09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98285FEB-A912-45D3-B4B0-0261B811CE09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98285FEB-A912-45D3-B4B0-0261B811CE09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98285FEB-A912-45D3-B4B0-0261B811CE09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
