@@ -1,0 +1,21 @@
+USE PetStore
+GO
+
+CREATE PROC uspSeedColors
+AS
+	BEGIN
+	IF EXISTS (SELECT * FROM Colors)
+		BEGIN
+			PRINT 'There are already colors added'
+		END
+	ELSE
+		BEGIN
+			INSERT INTO Colors VALUES ('Black')
+			INSERT INTO Colors VALUES ('White')
+			INSERT INTO Colors VALUES ('Red')
+			INSERT INTO Colors VALUES ('Mixed')
+		END
+	END
+GO
+
+--EXEC uspSeedColors

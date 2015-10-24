@@ -1,0 +1,10 @@
+use PetStore
+
+Select s.Name AS SpeciesName, c.ProductsCount 
+FROM Species s
+Join (SELECT s.Id AS SpeciesId, COUNT(*) AS ProductsCount
+	  FROM Species s
+	  JOIN SpeciesProducts sp ON s.Id = sp.SpeciesId
+	  GROUP BY s.Id) c
+ON s.Id = c.SpeciesId
+ORDER BY c.ProductsCount

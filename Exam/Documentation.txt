@@ -1,0 +1,33 @@
+My MSSQL Server does not connect to localhost(.), but DESKTOP-T0RKSAE\SQL2014.
+So please change the name of the server to . or whatever you connect to, in order to
+see results :).
+
+Connection string for "PetStore" database:
+
+	metadata=res://*/PetStoreModel.csdl|res://*/PetStoreModel.ssdl|res://*/PetStoreModel.msl;provider=System.Data.SqlClient;provider connection string="data source=DESKTOP-T0RKSAE\SQL2014;initial catalog=PetStore;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework"
+
+Connection string for "SocialNetwork" database:
+
+	  <connectionStrings>
+	    <add name="SocialNetwork" connectionString="Data Source=DESKTOP-T0RKSAE\SQL2014;Initial Catalog=SocialNetwork;Integrated Security = true" providerName="System.Data.SqlClient"/>
+	  </connectionStrings>
+ 
+Relationships for "PetStore" database: 
+
+	Categories-Products: one-to-many
+	Products-Species: many-to-many
+	Species-Pets: one-to-many
+	Color-Pets: one-to-many
+	Countries-Species: one-to-many
+
+Relationships for "SocialNetwork" database: 
+
+	UserProfiles-Images: one-to-many
+	UserProfiles-Posts: many-to-many
+	UserProfiles-ChatMessages: one-to-many
+	UserProfiles-Frindships: one-to-many
+	Friendships-ChatMessages: one-to-many
+	
+JSON Result files location: 
+
+	Problem 5 6 7 - Code First\SocialNetwork.ConsoleClient\bin\Debug

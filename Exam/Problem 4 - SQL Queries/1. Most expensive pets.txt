@@ -1,0 +1,6 @@
+use PetStore
+
+SELECT TOP 5 Price, Breed, YEAR(DateOfBirth) AS BirthYear 
+FROM Pets
+WHERE YEAR(DateOfBirth) >= 2012
+ORDER BY Price DESC

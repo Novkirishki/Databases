@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.ConsoleClient", "PetStore.ConsoleClient\PetStore.ConsoleClient.csproj", "{61B57D32-B088-4E5C-B016-C0BFF8E62D37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.Importer", "PetStore.Importer\PetStore.Importer.csproj", "{E9D56385-EDD9-486F-8FEC-06517A691F53}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PetStore.Data", "PetStore.Data\PetStore.Data.csproj", "{FB1BBF04-6FB8-497B-BEF8-66490FBBF958}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61B57D32-B088-4E5C-B016-C0BFF8E62D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61B57D32-B088-4E5C-B016-C0BFF8E62D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61B57D32-B088-4E5C-B016-C0BFF8E62D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61B57D32-B088-4E5C-B016-C0BFF8E62D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E9D56385-EDD9-486F-8FEC-06517A691F53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E9D56385-EDD9-486F-8FEC-06517A691F53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E9D56385-EDD9-486F-8FEC-06517A691F53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E9D56385-EDD9-486F-8FEC-06517A691F53}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB1BBF04-6FB8-497B-BEF8-66490FBBF958}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB1BBF04-6FB8-497B-BEF8-66490FBBF958}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB1BBF04-6FB8-497B-BEF8-66490FBBF958}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB1BBF04-6FB8-497B-BEF8-66490FBBF958}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

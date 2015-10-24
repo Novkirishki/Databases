@@ -1,4 +1,4 @@
-﻿namespace School.Importer
+﻿namespace PetStore.Importer
 {
     using System;
 
@@ -42,7 +42,7 @@
             return new string(chars);
         }
 
-        //Range is around 68 years.
+        // Range is around 68 years.
         public DateTime GetRandomDate(DateTime start, DateTime end)
         {
             var range = (end - start).TotalSeconds;

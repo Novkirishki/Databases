@@ -1,4 +1,4 @@
-﻿namespace School.Importer
+﻿namespace PetStore.Importer
 {
     using System;
 
