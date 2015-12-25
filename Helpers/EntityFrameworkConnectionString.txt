@@ -1,0 +1,3 @@
+<connectionStrings>
+    <add name="LaptopFactory" connectionString="Data Source=DESKTOP-T0RKSAE\SQL2014;Initial Catalog=LaptopFactoryDB;Integrated Security = true" providerName="System.Data.SqlClient"/>
+</connectionStrings>

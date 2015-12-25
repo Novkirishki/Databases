@@ -1,0 +1,9 @@
+How to Enable migrations:
+
+public Configuration()
+{
+    this.AutomaticMigrationsEnabled = true;
+    this.AutomaticMigrationDataLossAllowed = true;
+}
+
+Database.SetInitializer(new MigrateDatabaseToLatestVersion<DatabaseContext, Configuration>());

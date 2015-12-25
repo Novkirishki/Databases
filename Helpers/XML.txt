@@ -1,0 +1,24 @@
+1. Read XML
+const string QueriesFileName = "Queries.xml";
+
+if (!File.Exists(QueriesFileName))
+{
+    Console.WriteLine("{0} file not found!", QueriesFileName);
+    return;
+}
+
+var serializer = new XmlSerializer(typeof(List<Query>), new XmlRootAttribute("Queries"));
+IEnumerable<Query> queries;
+
+using (var fs = new FileStream(QueriesFileName, FileMode.Open))
+{
+    queries = (IEnumerable<Query>)serializer.Deserialize(fs);
+}
+
+2. Write XML
+var data = dataQuery.ToList();
+var serializer = new XmlSerializer(data.GetType(), new XmlRootAttribute("Cars"));
+using (var fs = new FileStream(query.OutputFileName, FileMode.Create))
+{
+    serializer.Serialize(fs, data);
+}

@@ -16,8 +16,8 @@
         public static void Main()
         {
             Console.WriteLine(@"Keep in mind that it is awfully slow, so please be patient. Or if you want just dont wait it till the end, stop it and see there are results in the database. On my laptop it takes around a minute. Sorry for wasting your time");
-            AddFrienships();
-            AddPosts();
+            //AddFrienships();
+            //AddPosts();
 
             Console.WriteLine("Creating JSONs");
             DataSearcher.Search(new SocialNetworkSearcher());

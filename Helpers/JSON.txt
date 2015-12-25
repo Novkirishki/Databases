@@ -1,0 +1,24 @@
+1. Install JSON.NET
+
+2. Read JSON
+
+var files = Directory.GetFiles(Environment.CurrentDirectory).Where(fileName => fileName.EndsWith(".json")).ToList();
+
+foreach (var file in files)
+{
+    var fileContent = File.ReadAllText(file);
+    var fileCars = JsonConvert.DeserializeObject<IEnumerable<Car>>(fileContent);
+    cars.AddRange(fileCars);
+    Console.WriteLine("{0} read.", file);
+}
+
+3.Write JSON
+
+string json = JsonConvert.SerializeObject(object, Formatting.Indented);
+
+string path = string.Format("../../../Json-Reports/{0}.json", fileName);
+
+using (StreamWriter file = new StreamWriter(path))
+{
+    file.WriteLine(json);
+}
